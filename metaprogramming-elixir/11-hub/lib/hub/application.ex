@@ -8,8 +8,7 @@ defmodule Hub.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # Starts a worker by calling: Hub.Worker.start_link(arg)
-      # {Hub.Worker, arg}
+      {Finch, name: JustFinch}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
