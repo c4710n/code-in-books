@@ -105,7 +105,7 @@ defmodule I18n do
   )
 end
 
-I18n.t("en", "flash.hello", first: "Zeke", last: "Dou") |> IO.puts()
-I18n.t("zh", "flash.hello", first: "Zeke", last: "Dou") |> IO.puts()
-I18n.t("en", "users.title") |> IO.puts()
-I18n.t("zh", "users.title") |> IO.puts()
+# I18n.t("en", "flash.hello", first: "Zeke", last: "Dou") |> IO.puts()
+# I18n.t("zh", "flash.hello", first: "Zeke", last: "Dou") |> IO.puts()
+# I18n.t("en", "users.title") |> IO.puts()
+# I18n.t("zh", "users.title") |> IO.puts()
