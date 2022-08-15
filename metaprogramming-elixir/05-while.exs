@@ -26,7 +26,8 @@ end
 #   while true do
 #     receive do
 #       :stop ->
-#         IO.puts "Stopping..." break
+#         IO.puts "Stopping..."
+#         break
 #       message ->
 #         IO.puts "Got #{inspect message}"
 #     end
